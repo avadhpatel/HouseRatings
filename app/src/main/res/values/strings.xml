@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">House Ratings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_house">Add New House</string>
+    <string name="add_house_name">House Name</string>
+    <string name="add_house_addr">House Address</string>
+    <string name="add_house_price">House Price</string>
+    <string name="bt_view_houses">View Houses</string>
+    <string name="bt_add_new_house">Add New House</string>
+    <string name="title_activity_view_houses">All Houses</string>
+
+</resources>
