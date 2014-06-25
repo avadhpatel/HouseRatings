@@ -8,8 +8,13 @@
     <string name="add_house_name">House Name</string>
     <string name="add_house_addr">House Address</string>
     <string name="add_house_price">House Price</string>
+    <string name="add_house_info">House Info</string>
     <string name="bt_view_houses">View Houses</string>
     <string name="bt_add_new_house">Add New House</string>
+    <string name="bt_email_data">Email Data</string>
     <string name="title_activity_view_houses">All Houses</string>
+    <string name="title_activity_view_rooms">View Rooms</string>
+    <string name="title_activity_view_room_features">View Room Features</string>
+    <string name="title_activity_view_one_room">One Room</string>
 
 </resources>

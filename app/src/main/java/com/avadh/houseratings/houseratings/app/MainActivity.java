@@ -61,6 +61,10 @@ public class MainActivity extends ActionBarActivity {
         startActivity(intent);
     }
 
+    public void emailData(View view) {
+
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         

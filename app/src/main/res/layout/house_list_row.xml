@@ -3,7 +3,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/houseListRow"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:clickable="true"
+    android:clickable="false"
     android:padding="10dp">
 
     <TextView
@@ -21,8 +21,19 @@
         android:layout_height="wrap_content"
         android:text="New Text"
         android:id="@+id/housePrice"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentTop="false"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:textSize="18dp" />
+        android:textSize="18dp"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/houseAddr"
+        android:layout_below="@+id/houseName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.avadh.houseratings.houseratings.app.ViewRooms" >
+
+    <item android:id="@+id/action_map_house"
+        android:icon="@drawable/ic_action_location_searching"
+        android:title="Show in Maps"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_edit_house"
+        android:icon="@drawable/ic_action_edit"
+        android:title="Edit House Info"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_delete_house"
+        android:title="Delete House"
+        android:orderInCategory="10"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>
