@@ -31,7 +31,7 @@ public class ViewRooms extends ActionBarActivity {
 
         if (savedInstanceState != null) {
             houseId = savedInstanceState.getLong("houseId");
-        } else if(houseId == -1) {
+        } else if(intent != null) {
             houseId = intent.getLongExtra(ViewHouses.VIEW_HOUSE_ID, -1);
         }
 
